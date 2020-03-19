@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/referenceNameID"
+        android:layout_marginTop="20dp"
+        android:hint="Reference Name (John)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/referenceCellID"
+        android:layout_marginTop="20dp"
+        android:hint="Reference Cell No. (015********)"
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/seatNoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:hint="No. of seats"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Spinner
+            android:id="@+id/timeSpinID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/timeTextID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time Slots"/>
+
+        <Button
+            android:id="@+id/timeButtonID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Set Time"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/saveButtonID"
+        android:layout_marginTop="25dp"
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#529E92"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/doneButtonID"
+        android:layout_marginTop="10dp"
+        android:text="Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#529E92"
+        android:textColor="#ffffff"
+        />
+
+
+
+
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/callButtonID"
+        android:layout_marginTop="50dp"
+        android:text="Call to reserve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#529E92"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:textStyle="bold"
+        android:id="@+id/exitButtonID"
+        android:layout_marginTop="10dp"
+        android:text="Quit App"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickexit"
+        android:background="#529E92"
+        android:textColor="#ffffff"
+        />
+
+</LinearLayout>

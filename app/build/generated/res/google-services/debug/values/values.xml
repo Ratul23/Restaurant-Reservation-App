@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1001877974413-95dlovgrpq21hrknp1jjr4aq0a28sje5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://pleasereserve-e08a3.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1001877974413</string>
+    <string name="google_api_key" translatable="false">AIzaSyAUUaOwWbsXQPEK7xYE9f1Qz-iTBc5arkM</string>
+    <string name="google_app_id" translatable="false">1:1001877974413:android:82b4aee819479ee5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAUUaOwWbsXQPEK7xYE9f1Qz-iTBc5arkM</string>
+    <string name="google_storage_bucket" translatable="false">pleasereserve-e08a3.appspot.com</string>
+    <string name="project_id" translatable="false">pleasereserve-e08a3</string>
+</resources>

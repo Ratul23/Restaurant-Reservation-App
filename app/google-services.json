@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001877974413",
+    "firebase_url": "https://pleasereserve-e08a3.firebaseio.com",
+    "project_id": "pleasereserve-e08a3",
+    "storage_bucket": "pleasereserve-e08a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001877974413:android:82b4aee819479ee5",
+        "android_client_info": {
+          "package_name": "com.example.pleasereserve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001877974413-tkckalfan0kogka0fohpe6irgbvifg7o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pleasereserve",
+            "certificate_hash": "c3368322769604273e77d9e84b83087d8a9610a3"
+          }
+        },
+        {
+          "client_id": "1001877974413-95dlovgrpq21hrknp1jjr4aq0a28sje5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUUaOwWbsXQPEK7xYE9f1Qz-iTBc5arkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001877974413-95dlovgrpq21hrknp1jjr4aq0a28sje5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
